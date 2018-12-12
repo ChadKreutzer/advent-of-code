@@ -1,3 +1,1 @@
-module.exports = function findTaxiDistance(target, loc) {
-    return Math.abs(+target[0] - +loc[0]) + Math.abs(+target[1] - +loc[1]);
-}
+module.exports = (target, loc) => Math.abs(+target.x - loc.x) + Math.abs(+target.y - loc.y);
